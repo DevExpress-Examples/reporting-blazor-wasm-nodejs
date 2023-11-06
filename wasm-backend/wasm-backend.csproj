@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RuntimeIdentifier>browser-wasm</RuntimeIdentifier>
+    <WasmMainJSPath>main.mjs</WasmMainJSPath>
+    <OutputType>Exe</OutputType>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <WasmAppDir>./result</WasmAppDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Blazor.Reporting.JSBasedControls.BlazorServer" Version="23.2.*-*" />
+    <PackageReference Include="DevExpress.Drawing.Skia" Version="23.2.*-*" />
+    <PackageReference Include="HarfBuzzSharp.NativeAssets.WebAssembly" Version="*" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="SkiaSharp.HarfBuzz" Version="*" />
+    <PackageReference Include="SkiaSharp.NativeAssets.WebAssembly" Version="*" />
+    <PackageReference Include="SkiaSharp.Views.Blazor" Version="*" />
+  </ItemGroup>
+  <ItemGroup>
+    <NativeFileReference Include="$(HarfBuzzSharpStaticLibraryPath)\2.0.23\*.a" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="node_modules\**" />
+    <EmbeddedResource Remove="node_modules\**" />
+    <None Remove="node_modules\**" />
+  </ItemGroup>
+</Project>

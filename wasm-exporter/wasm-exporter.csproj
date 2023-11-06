@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RuntimeIdentifier>browser-wasm</RuntimeIdentifier>
+    <WasmMainJSPath>main.mjs</WasmMainJSPath>
+    <OutputType>Exe</OutputType>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <WasmAppDir>./result</WasmAppDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="DevExpress.Drawing.Skia" Version="23.2.*-*" />
+    <PackageReference Include="DevExpress.Reporting.Core" Version="23.2.*-*" />
+    <PackageReference Include="HarfBuzzSharp.NativeAssets.WebAssembly" Version="*" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="SkiaSharp.HarfBuzz" Version="*" />
+    <PackageReference Include="SkiaSharp.NativeAssets.WebAssembly" Version="*" />
+    <PackageReference Include="SkiaSharp.Views.Blazor" Version="*" />
+    <NativeFileReference Include="$(HarfBuzzSharpStaticLibraryPath)\2.0.23\*.a" />
+  </ItemGroup>
+</Project>
