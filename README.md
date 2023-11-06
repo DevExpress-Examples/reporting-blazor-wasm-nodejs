@@ -1,3 +1,7 @@
+<!-- default badges list -->
+![](https://img.shields.io/endpoint?url=https://codecentral.devexpress.com/api/v1/VersionRange/715180528/2023.2)
+[![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
+<!-- default badges end -->
 # Reporting for Web - Create Reports Using .NET Integration with Node.js in a WebAssembly App
 
 The two examples in this project demonstrate how to implement a Node.js backend with .NET libraries using WASM. The app allows you to load a report from a file, export the report to PDF, and invoke the End-User Report Designer to create or edit the report.
