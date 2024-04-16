@@ -1,14 +1,15 @@
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFramework>net7.0</TargetFramework>
+    <TargetFramework>net8.0</TargetFramework>
     <RuntimeIdentifier>browser-wasm</RuntimeIdentifier>
     <WasmMainJSPath>main.mjs</WasmMainJSPath>
+    <JsonSerializerIsReflectionEnabledByDefault>true</JsonSerializerIsReflectionEnabledByDefault>
     <OutputType>Exe</OutputType>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <WasmAppDir>./result</WasmAppDir>
   </PropertyGroup>
   <ItemGroup>
-    <PackageReference Include="DevExpress.Blazor.Reporting.JSBasedControls.BlazorServer" Version="23.2.*-*" />
+    <PackageReference Include="DevExpress.Blazor.Reporting.JSBasedControls" Version="23.2.*-*" />
     <PackageReference Include="DevExpress.Drawing.Skia" Version="23.2.*-*" />
     <PackageReference Include="HarfBuzzSharp.NativeAssets.WebAssembly" Version="*" />
     <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />

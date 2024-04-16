@@ -1,4 +1,4 @@
-﻿import { dotnet } from './dotnet.js'
+﻿import { dotnet } from './_framework/dotnet.js'
 import fs from "fs";
 import path from "path";
 import util from 'util';

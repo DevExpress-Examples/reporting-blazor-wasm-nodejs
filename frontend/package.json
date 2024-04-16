@@ -10,9 +10,9 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@devexpress/analytics-core": "^23.1.5",
-    "devexpress-reporting": "^23.1.5",
-    "devextreme": "^23.1.5",
+    "@devexpress/analytics-core": "^23.2.5",
+    "devexpress-reporting": "^23.2.5",
+    "devextreme": "^23.2.5",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
