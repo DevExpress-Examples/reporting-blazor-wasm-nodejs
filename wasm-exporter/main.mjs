@@ -1,4 +1,4 @@
-import { dotnet } from './dotnet.js'
+import { dotnet } from './_framework/dotnet.js'
 import fs from 'fs';
 import http from 'http';
 import https from 'https';
