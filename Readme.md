@@ -178,7 +178,6 @@ Custom services do the following:
 - [Print and Export in React Application](https://docs.devexpress.com/XtraReports/401843/web-reporting/javascript-reporting/react/print-and-export)
 - [Web End-User Report Designer](https://docs.devexpress.com/XtraReports/119176/web-reporting/web-end-user-report-designer)
 - [Report Designer Server-Side Configuration (ASP.NET Core)](https://docs.devexpress.com/XtraReports/400196/web-reporting/javascript-reporting/server-side-configuration/report-designer/report-designer-server-side-configuration-asp-net-core)
-- [Reporting — Create a Vite-Powered Web App](https://community.devexpress.com/blogs/reporting/archive/2022/08/02/reporting-create-a-vite-powered-web-app.aspx)
 - [Run .NET from JavaScript](https://learn.microsoft.com/en-us/aspnet/core/client-side/dotnet-interop?view=aspnetcore-7.0)
 
 
