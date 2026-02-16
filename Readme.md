@@ -186,7 +186,7 @@ Custom services do the following:
 - [Reporting for Blazor WASM - Get Started and Create an Application Using Microsoft Template](https://github.com/DevExpress-Examples/reporting-blazor-wasm-get-started)
 - [Blazor WASM Reporting (JavaScript-Based) - UI Customization](https://github.com/DevExpress-Examples/reporting-blazor-wasm-customization)
 <!-- feedback -->
-## Does this example address your development requirements/objectives?
+## Does This Example Address Your Development Requirements/Objectives?
 
 [<img src="https://www.devexpress.com/support/examples/i/yes-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-blazor-wasm-nodejs&~~~was_helpful=yes) [<img src="https://www.devexpress.com/support/examples/i/no-button.svg"/>](https://www.devexpress.com/support/examples/survey.xml?utm_source=github&utm_campaign=reporting-blazor-wasm-nodejs&~~~was_helpful=no)
 
